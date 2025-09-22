@@ -1,0 +1,13 @@
+## How to create:
+nmap -sn 192.168.1.0/24 -oN scan_results/hosts_alive.txt
+## What it contains:
+
+List of all IPs that responded to ping (alive hosts).
+
+Example content:
+Nmap scan report for 192.168.1.10
+Host is up.
+Nmap scan report for 192.168.1.14
+Host is up.
+Nmap scan report for 192.168.1.23
+Host is up.
